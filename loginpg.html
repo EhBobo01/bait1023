@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Login Form</title>
+        <link href="loginstyle.css" rel="stylesheet">
+        <script type="text/javascript" src="signLS.js" defer></script>
+    </head>
+
+    <body>
+       
+        <div class="container">
+            <div class="title">
+                <h1>Login Form</h1>
+            </div>
+            <div class="left"></div>
+            <div class="right">
+                <div class="formBox">
+
+                    <form name="login" id="loginform" action="registerpg.html" method="get">
+                        <!--input-->
+                        <p>Email</p>
+                        <input type="text" id="email" name="email" placeholder="Enter Email" onblur = "checkemail()">
+                        <span id="emailalert"></span>
+
+                        <p>Password</p>
+                        <input type="Password" id="password" name="password" placeholder="Enter Pasword" >
+                        <span id="passalert"></span>
+
+                        <p id="showpassw"><input type="checkbox" id="showpass" onclick="ShowPassFn()" >Show Password</p>
+
+                        <!--button-->
+                        <div>
+                        
+                        <button id="backbtn" type="button" onclick="checkvar()">Back</button>
+
+                        <button id="signinbtn" type="button" onclick="loginfn()">Sign In</button>
+
+                        <button id="resetbtn" type="reset">Clear</button>
+                        </div>
+                        
+                        <!--link-->
+                        <div id="link">
+                        <a href="forgotpw.html"> Forget Password</a>
+                        <p>Still New? <a href="registerpg.html">Sign Up Here</a></p>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*background: url(pic2.png);
+    background-position: center;
+    background-size:cover;*/
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    padding: 3% 0 3%;
+    width: 100%;
+    height: 10%;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #030304d7;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.container{
+    width: 75%;
+    height: 450px;
+    background: linear-gradient(rgba(191, 158, 141, 0.5),rgba(192, 218, 76, 0.8));
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 15px 40px rgb(0, 0, 0, .5);
+}
+
+.container .left{
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-left: 6% ;
+    width: 30%;
+    height: 60%;
+    background: url(RegisterCover1.png);
+    opacity: 0.9;
+    background-size:220px 400px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.container .right{
+    float: right;
+    margin-top: 1%;
+    width: 60%;
+    height: 75%;
+    box-sizing: border-box;
+   
+}
+
+.formBox{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: rgba(249, 247, 247, 0.4);
+    border: 2px solid rgb(7, 7, 4, .3);
+    border-radius: 25px;
+}
+
+.formBox p{
+    margin:0;
+    margin-top: 8%;
+    padding: 0;
+    font-weight: bold;
+    color: #1f2a5ade;
+    font-size: 3vh;
+}
+
+
+
+.formBox input[type="text"], .formBox input[type="Password"]{
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #070707a0;
+    background: rgba(247, 247, 247, 0.232);
+    outline: none;
+}
+
+.formBox input[type="date"]{
+    width: 40%;
+    border: none;
+    border-bottom: 2px solid #de9d25;
+    outline: none;
+    background: rgba(247, 247, 247, 0.2);
+}
+
+.formBox input[type="text"]:focus, .formBox input[type="Password"]:focus{
+    border-bottom: 2px solid #262626;
+}
+
+#showpassw{
+    font-size: 13px;
+    color: #3a3838;
+}
+
+.formBox input[type="checkbox"]{
+    width: auto;
+    vertical-align: baseline;
+}
+.formBox #signupbtn{
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 45%;
+    height: 30px;
+    color: rgb(7, 7, 4);
+    background: radial-gradient(#f0bad3, #f788c7f4);
+    cursor: pointer;
+   }
+
+.formBox #backbtn, .formBox #resetbtn{
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 25%;
+    height: 30px;
+    color: rgb(7, 7, 4);
+    background:radial-gradient(#c3dee2, #3de2e5f8);
+    cursor: pointer;
+   }
+
+.formBox #signupbtn:hover{
+    background:  #e83b3b;
+    color: #e9e7af;
+}
+
+.formBox #backbtn:hover{
+    background: #d4e68b;
+    color: #3a3838;
+}
+
+.formBox #resetbtn:hover{
+    background: #e03c13;
+}
+
+
+.formBox a{  
+    color: #262626b6;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formBox a:hover{
+    color: #d8790d;
+}
+
+#link{
+    margin-top: 20px;
+}
+
+#link p{
+    color: #262626;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form{
+    width: auto;
+    height: 250px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+span{
+    display: block;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: red;
+    font-style: italic;
+}

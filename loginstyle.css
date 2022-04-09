@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    padding: 3% 0 3%;
+    width: 100%;
+    height: 10%;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #262626;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.container{
+    width: 70%;
+    height: 400px;
+    background: linear-gradient(rgba(191, 141, 185, 0.5),rgba(76, 218, 197, 0.8));
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 15px 40px rgb(0, 0, 0, .5);
+}
+
+.container .left{
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-left: 7%;;
+    width: 30%;
+    height: 60%;
+    background: url(Coverimg2.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size:225px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.container .right{
+    float: right;
+    margin-top: 1%;
+    width: 60%;
+    height: 75%;
+    box-sizing: border-box;
+}
+
+.formBox{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: rgba(249, 247, 247, 0.4);
+    border: 2px solid rgb(7, 7, 4, .3);
+    border-radius: 25px;
+}
+
+.formBox p{
+    margin:0;
+    margin-top: 10px;
+    padding: 0;
+    font-weight: bold;
+    color: #1f2a5ade;
+    font-size: 2.5vh;
+}
+
+.formBox input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.formBox input[type="text"], .formBox input[type="Password"]{
+    border: none;
+    border-bottom: 1px solid #13130e;
+    background: rgba(253, 250, 250, 0.5);
+    outline: none;
+}
+
+.formBox input[type="text"]:focus, .formBox input[type="Password"]:focus{
+    border-bottom: 2px solid #e512e8e3;
+}
+
+#showpassw{
+    font-size: 2vh;
+    color: #3a3838db;
+}
+
+.formBox input[type="checkbox"]{
+    width: auto;
+    vertical-align: baseline;
+}
+
+.formBox #signinbtn{
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 45%;
+    height: 30px;
+    color: rgb(7, 7, 4);
+    background: radial-gradient(#f0bad3, #f788c7f4);
+    cursor: pointer;
+   }
+
+
+.formBox #backbtn, .formBox #resetbtn{
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 25%;
+    height: 30px;
+    color: rgb(7, 7, 4);
+    background:radial-gradient(  #e9e7af,  #fcf75e);
+    cursor: pointer;
+   }
+
+.formBox #signinbtn:hover{
+    background: #e83b3b;
+    color: #e9e7af;
+}
+
+.formBox #backbtn:hover{
+    background: #8bf6d0;
+    color: #3a3838;
+}
+
+.formBox #resetbtn:hover{
+    background: #8cebc9;
+}
+
+.formBox a{  
+    color: #262626b6;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formBox a:hover{
+    color: #d8790d;
+}
+
+#link{
+    margin-top: 20px;
+}
+
+#link p{
+    color: #262626;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+span{
+    display: block;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 10px;
+    color: red;
+    font-style: italic;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Register Form</title>
+        <link href="regstyle.css" rel="stylesheet">
+        <script type="text/javascript" src="signLS.js" defer></script>
+        
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="title">
+            <h1 style="text-align: center;">Register Form</h1>
+            </div>
+            <div class="left"></div>
+            <div class="right">
+                <div class="formBox">
+                    <form name="registerform" id="registerform" action="#" method="get" >
+                        <div class="form">
+
+                        <!--UserInfo-->
+                        <p>Full Name</p>
+                        <input type="text" id="name" name="nameinput" placeholder="Enter Full Name">
+                        <span id="namealert"></span>
+
+                        <p>Email</p>
+                        <input type="text" id="newemail" name="reginput" placeholder="Enter Email" onblur="checknewemail()">
+                        <span id="newemailalert"></span>
+
+                        <p>Password</p>
+                        <input type="Password" id="newpassword" name="reginput" placeholder="Enter Password" >
+                        <span id="newpasswalert"></span>
+
+                        <p>Confirm Password</p>
+                        <input type="Password"
+                        id="c.password" name="reginput" placeholder="Enter Confirm Password" onblur="checkpw()">
+                        <span id="confirmpw"></span>
+
+                        <p>Address</p>
+                        <input type="text" id="address" name="reginput" placeholder="Enter Address">
+                        <span id="addressalert"></span>
+
+                        <p>Date of Birth</p>
+                        <input type="date" id="dob" name="reginput">
+                        <span id="dobalert"></span>
+                        </div>
+                        
+
+                        <!-- Button -->
+                        <div>
+                            
+                            <button id="backbtn" type="button" onclick="window.location.href='loginpg.html'">Back</button>
+                            <button id="signupbtn" type="button" onclick="registerfn()">Create Account</button>
+                            <button id="resetbtn" type="reset">Clear</button>
+                           
+                        </div>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
